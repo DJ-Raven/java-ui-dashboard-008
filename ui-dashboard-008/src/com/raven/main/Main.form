@@ -43,7 +43,10 @@
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="menu" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="scroll" pref="1066" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="scroll" pref="1158" max="32767" attributes="0"/>
+                      <Component id="header" max="32767" attributes="0"/>
+                  </Group>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
           </Group>
@@ -55,7 +58,8 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Component id="menu" pref="723" max="32767" attributes="0"/>
                       <Group type="102" attributes="0">
-                          <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                          <Component id="header" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
                           <Component id="scroll" max="32767" attributes="0"/>
                       </Group>
                   </Group>
@@ -85,6 +89,8 @@
               <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
             </Container>
           </SubComponents>
+        </Container>
+        <Container class="com.raven.component.Header" name="header">
         </Container>
       </SubComponents>
     </Container>
